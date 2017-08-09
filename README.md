@@ -6,14 +6,14 @@ Here's how to do that:
 
 * Make sure you have a Heroku account
 
-* Clone this repo to your computer `git clone https://github.com/dlbunker/ps-heroku-django-sample.git`
+* Fork this repo to your own github account
 
-* Open a terminal or command prompt and go to the root of the cloned project `cd ps-heroku-django-sample`
+* Login to the Heroku dashboard and create a new app
 
-* Login to Heroku `heroku login`
+* On the deploy tab, select the GitHub option as your deployment method
 
-* Create a Heroku app space `heroku create`
+* Select your forked github repo and connect it
 
-* Deploy app to Heroku `git push heroku master`
+* Enable automatic deployments
 
-* Open a browser and go to your apps url, it will look something like this: (https://guarded-wave-47344.herokuapp.com/rivers)
+* Finally manually deploy as your first deployment.  Check the Overview or Activity tabs to make sure it deployed ok.
