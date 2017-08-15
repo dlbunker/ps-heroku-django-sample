@@ -17,5 +17,5 @@ from django.conf.urls import url, include
 from api import views
 
 urlpatterns = [
-    url(r'^api/v1/rivers/$', views.RiverViewSet.as_view()),
+    url(r'^api/v1/rivers$', views.RiverViewSet.as_view()),
 ]
